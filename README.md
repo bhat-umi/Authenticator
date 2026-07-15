@@ -20,12 +20,14 @@ A simple command-line utility for generating Time-based One-Time Passwords (TOTP
 
 1. **Clone the repository:**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/bhat-umi/Authenticator-.git
    cd Authenticator
    ```
 
-2. **Build the single executable:**
-   Run the command corresponding to your operating system to generate a standalone binary:
+2. **Releases are already available in the GitHub Releases section.**  
+   If you simply want to use the application, download the appropriate binary from the Releases page.
+
+   If you prefer to build the application yourself, use the commands below to generate a standalone executable.
 
    **For Windows (x64):**
    ```bash
@@ -60,8 +62,8 @@ For quick access without opening a terminal every time:
 1. Right-click the generated `Authenticator.exe` and select **Create shortcut**.
 2. Move the shortcut to your desktop or a preferred folder.
 3. Right-click the shortcut and select **Properties**.
-4. In the **Target** field, append your secret and options. 
-   
+4. In the **Target** field, append your secret and options.
+
    **Example Target:**
    ```text
    "C:\Path\To\Authenticator.exe" --secret JBSWY3DPEHPK3PXP --mode 1 --totpSize 6
@@ -94,4 +96,4 @@ Authenticator --secret <YOUR_BASE32_SECRET> [options]
 Authenticator --secret JBSWY3DPEHPK3PXP --mode 1 --totpSize 6
 ```
 
-Once executed, the generated token will be  automatically copied to your system clipboard.
+Once executed, the generated token will be automatically copied to your system clipboard.
