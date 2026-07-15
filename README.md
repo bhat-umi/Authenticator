@@ -20,7 +20,7 @@ A simple command-line utility for generating Time-based One-Time Passwords (TOTP
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/bhat-umi/Authenticator-.git
+   git clone https://github.com/bhat-umi/Authenticator.git
    cd Authenticator
    ```
 
